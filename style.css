@@ -10,6 +10,23 @@ body{
     font-size: 45px;
 }
 
+#text2{
+    text-align: center;
+    font-size: 35px;
+}
+
+#InputSubmit{
+    text-align: center;
+}
+
+#input{
+    font-size: 30px;
+}
+
+#button{
+    font-size: 30px;
+}
+
 #MainContainer{
     border: solid 10px black;
     width: 550px;
