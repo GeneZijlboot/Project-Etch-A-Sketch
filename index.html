@@ -6,27 +6,18 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <div id="allcontent">
-            <div id="text">
-                <p>Hover over the grid and let the magic happen!</p>
+        <div id="container">
+            <p id="text">Etch a Sketch</p>
+            <div id="controls">
+                <button>color</button>
+                <button>erase</button>
+                <button>reset</button>
+                <input type="range" min="2" max="100" value="16" id="slider">
+                <p>16</p>
             </div>
-
-            <div id="text2">
-                <p>how big do you want the grid to be?</p>
-            </div>
-
-            <div id="InputSubmit">
-                <input id="input" placeholder="number between 2 and 100"/>
-                <button id="button">submit</button>
-            </div>
-
             <div id="MainContainer"></div>
-
-            <div id="MadeBy">
-                <p>Copyright © Gene Zijlmans</p>
-            </div>
+            <p id="MadeBy">Copyright © Gene Zijlmans</p>
         </div>
-
         <script src="script.js"></script>
     </body>
 </html>

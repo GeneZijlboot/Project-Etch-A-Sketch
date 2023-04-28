@@ -1,40 +1,36 @@
 body{
-    background-color: lightgray;
+    background-color: yellow;
 }
 
-#allcontent{
-    gap:10px
-}
-#text{  
+#container{
     text-align: center;
+}
+
+#text{
     font-size: 45px;
 }
-
-#text2{
-    text-align: center;
-    font-size: 35px;
+#controls{
+    display: flex;
+    justify-content: center;   
+    gap: 15px;
+    font-size: 20px;
 }
 
-#InputSubmit{
-    text-align: center;
+button{
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 15px;
+    font-size: 25px;
+    background-color: yellow;
 }
-
-#input{
-    font-size: 30px;
-}
-
-#button{
-    font-size: 30px;
-}
-
 #MainContainer{
     border: solid 10px black;
-    width: 550px;
-    height: 500px;
-    margin: 50px auto 10px auto;
+    border-radius: 15px;
+    width: 600px;
+    height: 600px;
+    margin: 10px auto 10px auto;
 }
 
 #MadeBy {
-    font-size: 20px;
-    text-align: center;
+    font-size: 25px;
 }
