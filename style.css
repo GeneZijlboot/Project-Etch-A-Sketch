@@ -1,36 +1,56 @@
-body{
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
     background-color: yellow;
 }
 
-#container{
+#container {
     text-align: center;
 }
 
-#text{
+#text {
     font-size: 45px;
 }
-#controls{
+#controls {
+    cursor: pointer;
     display: flex;
     justify-content: center;   
     gap: 15px;
     font-size: 20px;
 }
 
-button{
+button {
+    cursor: pointer;
     padding-left: 20px;
     padding-right: 20px;
     border-radius: 15px;
-    font-size: 25px;
+    font-size: 20px;
     background-color: yellow;
 }
-#MainContainer{
-    border: solid 10px black;
+
+#MainContainer {
+    display: flex;
+    flex-flow: row wrap;
+    border: 5px solid black;
     border-radius: 15px;
-    width: 600px;
-    height: 600px;
+    width: 500px;
+    height: 500px;
     margin: 10px auto 10px auto;
 }
 
+.box {
+    border: 0.5px solid rgba(0, 0, 0, 0.05);
+}
+  
+.box.active {
+    background-color: blue;
+}
 #MadeBy {
-    font-size: 25px;
+    font-size: 20px;
 }
